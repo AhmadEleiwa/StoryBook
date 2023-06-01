@@ -5,17 +5,7 @@ export default {
   title: "Example/Button",
   component: Button,
   tags: ["autodocs"],
-  argTypes: {
-    color: {
-      type: "color",
-      control: { type: "color" },
-      table: {
-        type: { summary: "string" },
-        defaultValue: { summary: "red" },
-      },
-      defaultValue: "red",
-    },
-  },
+  args:{color: "primary", size:'md'}
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
@@ -56,5 +46,23 @@ export const Small = {
   args: {
     size: "sm",
     children: "Button",
+  },
+};
+
+export const PrimaryColor = {
+  args: {
+    color: "primary",
+  },
+};
+
+export const WarningColor = {
+  args: {
+    color: "warning",
+  },
+};
+
+export const ErrorColor = {
+  args: {
+    color: "error",
   },
 };

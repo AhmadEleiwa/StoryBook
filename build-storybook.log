@@ -1,0 +1,86 @@
+@storybook/cli v7.0.6
+
+info => Cleaning outputDir: /tmp/chromatic--64935-9Limn7rxzbQg
+info => Loading presets
+info => Building manager..
+info => Manager built (336 ms)
+info => Copying static files: /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/node_modules/@storybook/manager/static at /tmp/chromatic--64935-9Limn7rxzbQg/sb-common-assets
+WARN No story files found for the specified pattern: src/**/*.mdx
+info => Copying static files: /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/public at /tmp/chromatic--64935-9Limn7rxzbQg/
+vite v4.2.2 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+
+./assets/icon/percolate.eot?-5w3um4 referenced in /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/src/index.css didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./assets/icon/percolate.eot?#iefix5w3um4 referenced in /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/src/index.css didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./assets/icon/percolate.woff?5w3um4 referenced in /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/src/index.css didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./assets/icon/percolate.ttf?5w3um4 referenced in /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/src/index.css didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./assets/icon/percolate.svg?5w3um4 referenced in /home/ahmad/Desktop/My docs/Web_projects/Storybook/taskbox/src/index.css didn't resolve at build time, it will remain unchanged to be resolved at runtime
+Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 556 modules transformed.
+rendering chunks...
+warnings when minifying css:
+▲ [WARNING] CSS nesting syntax is not supported in the configured target environment ("chrome87", "edge88", "es2020", "firefox78", "safari14") [unsupported-css-nesting]
+
+    <stdin>:36:2:
+      36 │   *vertical-align: middle;
+         ╵   ^
+
+
+▲ [WARNING] Expected identifier but found whitespace [css-syntax-error]
+
+    <stdin>:36:18:
+      36 │   *vertical-align: middle;
+         ╵                   ^
+
+
+▲ [WARNING] Unexpected ";" [css-syntax-error]
+
+    <stdin>:36:25:
+      36 │   *vertical-align: middle;
+         ╵                          ^
+
+
+computing gzip size...
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/iframe.html                                          12.74 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-d68bed3d.css                           6.92 kB │ gzip:   2.05 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-e535450e.js                            0.19 kB │ gzip:   0.19 kB │ map:     0.63 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/index-d475d2ea.js                              0.21 kB │ gzip:   0.17 kB │ map:     0.84 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/WithTooltip-FBT32F6Q-d785ce6f.js               0.48 kB │ gzip:   0.30 kB │ map:     0.11 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/syntaxhighlighter-QTQ2UBB4-858b91cb.js         0.49 kB │ gzip:   0.32 kB │ map:     0.12 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/index-6d7aa4ee.js                              0.62 kB │ gzip:   0.38 kB │ map:     4.29 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-0435c720.js                            0.69 kB │ gzip:   0.49 kB │ map:     3.84 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-ec97f17f.js                            0.76 kB │ gzip:   0.47 kB │ map:     1.27 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/_commonjsHelpers-042e6b4d.js                   0.78 kB │ gzip:   0.44 kB │ map:     0.11 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/index-4d501b15.js                              0.80 kB │ gzip:   0.52 kB │ map:     4.12 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/index-356e4a49.js                              0.81 kB │ gzip:   0.51 kB │ map:     3.27 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-b1164a2e.js                            0.88 kB │ gzip:   0.58 kB │ map:     2.83 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-bb5acd95.js                            2.38 kB │ gzip:   1.26 kB │ map:    10.35 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/index-d37d4223.js                              2.63 kB │ gzip:   1.30 kB │ map:     7.47 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-f96f0111.js                            3.29 kB │ gzip:   1.41 kB │ map:    10.11 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/iframe-88803906.js                             3.97 kB │ gzip:   1.56 kB │ map:     5.08 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/Button.stories-5ba1ddd0.js                     4.59 kB │ gzip:   1.76 kB │ map:     4.59 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/index-f1f749bf.js                              7.25 kB │ gzip:   2.96 kB │ map:    15.71 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-62235626.js                            7.69 kB │ gzip:   1.60 kB │ map:    13.72 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-e6f1f377.js                            7.97 kB │ gzip:   3.03 kB │ map:    28.20 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/GlobalScrollAreaStyles-XIHNDKUY-9d77c1f2.js   10.46 kB │ gzip:   2.38 kB │ map:    15.72 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/preview-643ac584.js                           21.08 kB │ gzip:   6.99 kB │ map:    68.04 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/Color-3YIJY6X7-80e4f49a.js                    31.03 kB │ gzip:  11.66 kB │ map:   112.57 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/OverlayScrollbars-VAV6LJAB-7e0b76e0.js        59.03 kB │ gzip:  25.32 kB │ map:   277.32 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/_getPrototype-2bb51b12.js                    213.17 kB │ gzip:  66.71 kB │ map:   654.43 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/config-ceab7f3d.js                           213.63 kB │ gzip:  66.38 kB │ map:   803.01 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/DocsRenderer-7FRJXR4N-4ce8c190.js            504.44 kB │ gzip: 166.11 kB │ map: 1,436.60 kB
+../../../../../../../tmp/chromatic--64935-9Limn7rxzbQg/assets/formatter-S4K5WUZV-0ab521a1.js               601.68 kB │ gzip: 185.06 kB │ map: 1,315.98 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 13.90s
+info => Output directory: /tmp/chromatic--64935-9Limn7rxzbQg
